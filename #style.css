@@ -1,0 +1,71 @@
+#style.css
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.top
+{
+    background-image: url(https://t4.ftcdn.net/jpg/05/57/32/21/360_F_557322170_EI9CC6cjIOpyHAXFrfm9W2CoHO7LAN62.jpg);
+   
+    background-size:cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 20vh;
+    padding: 5px ;
+    color: white;
+    position: relative;
+}
+.name2{
+    font-size: 45px;
+    font-family:  mv boli;
+}
+.top .name img
+{
+    position: relative;
+    height: 100px;
+    width: 150px;
+    margin-left: 20px;
+    align-items: center;
+}
+.icons i{
+    padding: 14px;
+    font-size: 29px;
+}
+.mid-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: grey;
+}
+.cont{
+    background-color:white;
+    width:320px;
+    height: 420px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.cont img{
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+.cont p{
+    padding: 10px;
+}
+.bottom
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(56, 55, 55);
+    color: white;
+}
+.foot
+{
+    width: 400px;
+    height: 90px;
+    text-align: center;
+}
